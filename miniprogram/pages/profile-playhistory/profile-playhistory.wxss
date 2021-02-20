@@ -1,0 +1,12 @@
+.container{
+  height: 99rpx;
+}
+.btn-container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.btn-container-hide{
+  display: none;
+}

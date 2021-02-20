@@ -1,0 +1,10 @@
+<x-musiclist musiclist="{{musiclist}}" />
+
+<view class="container"></view>
+
+<view class="{{showView?'btn-container':'btn-container-hide'}}">
+  <x-delete-btn 
+  bind:tap="deletePlayhistory" 
+  iconfont="iconfont" 
+  icon-shanchu2="icon-shanchu2" />
+</view>

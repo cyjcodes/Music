@@ -1,0 +1,16 @@
+<view class="header">
+  <view class="search-container">
+    <!-- bind:search="onSearch"接收组件传过来的值 -->
+    <x-searchBlog iconfont="iconfont" icon-sousuo="icon-sousuo" icon-quxiao="icon-quxiao" bind:search="onSearch" bind:cancel="onCancel" />
+  </view>
+</view>
+<!-- 无数据时提示  -->
+<view class="{{showView?'empty':'empty-hide'}}" >
+  <image class="empty-img" src="../../images/empty.svg"></image>
+  <view class="empty-content">
+    <text class="empty-tip">请搜索点东西吧~</text>
+  </view>
+</view>
+
+<view class="space"></view>
+<x-searchMusiclist searchMusiclist="{{searchMusiclist}}" />

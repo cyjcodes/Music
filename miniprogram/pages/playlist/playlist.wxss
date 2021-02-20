@@ -1,0 +1,45 @@
+.playlist-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10rpx;
+  flex-direction: row;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper {
+  height: 340rpx;
+}
+
+.page__header{
+  width:100%;
+}
+.weui-search-bar{
+  background-color:#DC4238;
+  border: 1px  solid #DC4238;
+}
+.weui-search-bar__box{
+  position: relative;
+}
+.weui-icon-search__in-box{
+  position: absolute;
+  left: 50%;
+  transform:translateX(-50%);
+}
+.weui-search-bar__label{
+  /* width: 80%; */
+  
+  background-color: #DE655C;
+  border: 0px solid #DE655C;
+  border-radius: 20rpx;
+}
+.weui-search-bar__from{
+  height: 65rpx;
+}
+.weui-search-bar__text{
+  color: #EDA8A3; 
+}

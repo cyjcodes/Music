@@ -1,0 +1,43 @@
+.searchMusiclist-container {
+  display: flex;
+  padding: 14rpx 20rpx;
+  align-items: center; /* 垂直居中 */
+  border-bottom: 1px solid #EDEEF0;
+}
+
+.searchMusiclist-index {
+  color: #888;
+  font-size: 34rpx;
+  width: 80rpx;
+}
+
+.searchMusiclist-info {
+  flex-grow: 1;
+  width: 0;
+}
+
+.searchMusiclist-name {
+  font-size: 34rpx;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 10rpx;
+}
+
+.searchMusiclist-alia {
+  font-size: 30rpx;
+  color: #888;
+}
+
+.searchMusiclist-singer {
+  font-size: 24rpx;
+  color: #888;
+}
+
+.playing .searchMusiclist-index,
+.playing .searchMusiclist-name, 
+.playing .searchMusiclist-alia,
+.playing .searchMusiclist-singer {
+  color: #d43c33;
+}

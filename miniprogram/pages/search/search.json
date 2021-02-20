@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "x-searchBlog": "/components/searchBlog/searchBlog",
+    "x-searchMusiclist": "/components/searchMusiclist/searchMusiclist"
+  },
+  "enablePullDownRefresh": true
+}

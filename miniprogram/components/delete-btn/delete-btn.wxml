@@ -1,0 +1,6 @@
+<view class="ctrl">
+	<view class="ctrl-item">
+		<i class="iconfont icon-shanchu2 icon"></i>
+		<text class="item">删除</text>
+	</view>
+</view>

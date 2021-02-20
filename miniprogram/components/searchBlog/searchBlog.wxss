@@ -1,0 +1,50 @@
+/* @import "iconfont.wxss"; */
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 20rpx 0 20rpx 20rpx;
+  position: relative;
+}
+
+.bar {
+  flex: 1;
+  height: 68rpx;
+  font-size: 28rpx;
+  border-radius: 50px;
+  background-color: #f5f5f5;
+  padding: 0 60rpx;
+}
+
+.search {
+  background: #d43c33;
+  color: #fff;
+  margin: 0 20rpx;
+  font-size: 24rpx;
+}
+
+.in-bar {
+  color: #999;
+}
+
+.find {
+  position: absolute;
+  top: 50%;
+  transform: translate(16rpx, -50%);
+  color: #9f9f9f;
+}
+
+.cancel-container{
+  position: absolute;
+  bottom: -40%;
+  right: 145rpx;
+  transform: translate(-50%,-50%);
+  color: #9f9f9f;
+  z-index: 10;
+}
+/* top: 50%;left: 50%;， 是以左上角为原点，故不处于中心位置
+translate(-50%,-50%) 作用是，往上（x轴）,左（y轴）移动自身长宽的 50%，以使其居于中心位置 */
+
+.cancel-container-hide{
+  display: none;
+}

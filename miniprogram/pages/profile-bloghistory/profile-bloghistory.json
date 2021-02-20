@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "x-blog-card": "/components/blog-card/blog-card",
+    "x-blog-ctrl": "/components/blog-ctrl/blog-ctrl",
+    "x-delete-btn": "/components/delete-btn/delete-btn"
+  },
+  "navigationBarTitleText": "我的发现"
+}
