@@ -17,7 +17,7 @@
 }
 
 .search {
-  background: #d43c33;
+  background: #57c3c2;
   color: #fff;
   margin: 0 20rpx;
   font-size: 24rpx;

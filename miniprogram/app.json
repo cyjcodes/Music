@@ -16,7 +16,7 @@
   
   "window": {
     "backgroundColor": "#F6F6F6",
-    "navigationBarBackgroundColor": "#DC4238",
+    "navigationBarBackgroundColor": "#57c3c2",
     "navigationBarTitleText": "音乐",
     "navigationBarTextStyle": "white",
     "enablePullDownRefresh": true,
@@ -24,7 +24,7 @@
   },
   "tabBar": {
     "color": "#474747",
-    "selectedColor": "#DC4238",
+    "selectedColor": "#57c3c2",
     "list": [{
       "pagePath": "pages/playlist/playlist",
       "text": "音乐",

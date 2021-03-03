@@ -6,7 +6,7 @@
       <i class="iconfont icon-fabu"></i>
     </view>
     <view class="search-container">
-      <x-searchBlog iconfont="iconfont" icon-sousuo="icon-sousuo" icon-quxiao="icon-quxiao" bind:search="onSearch" bind:cancel="onCancel" />
+      <x-search-blog iconfont="iconfont" icon-sousuo="icon-sousuo" icon-quxiao="icon-quxiao" bind:search="onSearch" bind:cancel="onCancel" />
     </view>
   </view>
 

@@ -1,7 +1,8 @@
 {
   "usingComponents": {
-    "x-searchBlog": "/components/searchBlog/searchBlog",
-    "x-searchMusiclist": "/components/searchMusiclist/searchMusiclist"
+    "x-search-blog": "/components/search-blog/search-blog",
+    "x-search-music": "/components/search-music/search-music",
+    "x-empty-search": "/components/empty-search/empty-search"
   },
   "enablePullDownRefresh": true
 }

@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "x-musiclist": "/components/musiclist/musiclist",
-    "x-delete-btn": "/components/delete-btn/delete-btn"
+    "x-delete-btn": "/components/delete-btn/delete-btn",
+    "x-empty-search": "/components/empty-search/empty-search"
   },
   "navigationBarTitleText": "最近播放"
 }

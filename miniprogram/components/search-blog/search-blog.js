@@ -1,4 +1,4 @@
-// components/searchBlog/searchBlog.js
+// components/search-blog/search-blog.js
 let keyword = ''
 Component({
   options:{

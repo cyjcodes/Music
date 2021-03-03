@@ -1,4 +1,4 @@
-// components/searchMusiclist/searchMusiclist.js
+// components/search-music/search-music.js
 const app = getApp()
 Component({
   /**

@@ -1,8 +1,8 @@
 <x-musiclist musiclist="{{musiclist}}" />
-
+<x-empty-search showView="{{showView}}" tip="{{tip}}"/>
 <view class="container"></view>
 
-<view class="{{showView?'btn-container':'btn-container-hide'}}">
+<view class="{{showView?'btn-container-hide':'btn-container'}}">
   <x-delete-btn 
   bind:tap="deletePlayhistory" 
   iconfont="iconfont" 

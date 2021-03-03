@@ -1,6 +1,6 @@
 {
   "usingComponents": {
     "x-musiclist": "/components/musiclist/musiclist",
-    "x-searchBlog": "/components/searchBlog/searchBlog"
+    "x-search-blog": "/components/search-blog/search-blog"
   }
 }

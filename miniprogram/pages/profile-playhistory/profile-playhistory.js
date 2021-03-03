@@ -7,7 +7,8 @@ Page({
    */
   data: {
     musiclist: [],
-    showView: true
+    showView: false,
+    tip: '请播放点东西吧~'
   },
 
   /**
@@ -17,7 +18,7 @@ Page({
     const playHistory = wx.getStorageSync(app.globalData.openid)
     if (playHistory.length == 0) {
       this.setData({
-        showView: false
+        showView: true
       })
       wx.showModal({
         title: '提示',
@@ -52,7 +53,7 @@ Page({
               console.log('删除成功')
               that.setData({
                 musiclist: [],
-                showView: false
+                showView: true
               })
             }
           })

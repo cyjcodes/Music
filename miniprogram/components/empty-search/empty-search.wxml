@@ -1,0 +1,7 @@
+<!-- 无数据时提示  -->
+<view class="{{showView?'empty':'empty-hide'}}" >
+  <image class="empty-img" src="../../images/empty.svg"></image>
+  <view class="empty-content">
+    <text class="empty-tip">{{tip}}</text>
+  </view>
+</view>

@@ -23,7 +23,7 @@ exports.main = async(event, context) => {
     ctx.body = await cloud.database().collection('playlist')
       .skip(event.start)
       .limit(event.count)
-      .orderBy('trackNumberUpdateTime', 'desc')
+      .orderBy('trackNumberUpdateTime', 'asc')
       .get()
       .then((res) => {
         return res

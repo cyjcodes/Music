@@ -1,6 +1,7 @@
 .page{
   background-color: #f1f1f1;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 .header {
   display: flex;

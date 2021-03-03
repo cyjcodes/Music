@@ -77,7 +77,7 @@ Page({
     this.setData({
       blogList: []
     })
-    keyword = event.detail.keyword // 取到子组件searchBlog抛过来的关键字keyword
+    keyword = event.detail.keyword // 取到子组件search-blog抛过来的关键字keyword
     this._loadBlogList(0)
   },
 

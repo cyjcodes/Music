@@ -8,7 +8,8 @@ Page({
    */
   data: {
     searchMusiclist:[],
-    showView: true //组件的显示与隐藏
+    showView: true, //组件的显示与隐藏
+    tip: '请搜索点东西吧~'
   },
 
   /**

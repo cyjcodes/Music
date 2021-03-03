@@ -10,7 +10,8 @@ Component({
     tip: {
       type: String,
       value: ""
-    }
+    },
+    showView: Boolean
   },
 
   /**

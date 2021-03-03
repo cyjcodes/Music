@@ -18,19 +18,20 @@
     "uploadWithSourceMap": true,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
+    "bundle": false,
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "bundle": false,
-    "useApiHostProcess": false
+    "minifyWXSS": true
   },
   "appid": "wx5d52f6f669f32756",
   "projectname": "music",

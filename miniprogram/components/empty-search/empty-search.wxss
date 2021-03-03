@@ -1,0 +1,32 @@
+.empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320rpx;
+  z-index: 98;
+  text-align: center;
+}
+
+
+.empty-img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 360rpx;
+  height: 270rpx;
+}
+
+.empty-content{
+  margin-top: 160rpx;
+}
+
+.empty-tip{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30rpx;
+  color: #8d8d8d;
+}
+
+.empty-hide{
+  display: none;
+}
