@@ -1,8 +1,8 @@
 //app.js 项目入口文件，也叫全局逻辑文件
 App({
   onLaunch: function (options) {
-    console.log('onLaunch 执行')
-    console.log(options)
+    // console.log('onLaunch 执行')
+    // console.log(options)
     this.checkUpate()
     
     if (!wx.cloud) {
@@ -26,8 +26,8 @@ App({
   },
 
   onShow(options){
-    console.log('onShow 执行')
-    console.log(options)
+    // console.log('onShow 执行')
+    // console.log(options)
   },
 
   setPlayMusicId(musicId){

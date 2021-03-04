@@ -74,10 +74,12 @@ Component({
       for (let i = 0, len = lrcList.length; i < len; i++) {
         // const element = array[i];
         if (currentTime <= lrcList[i].time) {
-          this.setData({
-            nowLyricIndex: i - 1,
-            scrollTop: (i - 1) * lyricHeight
-          })
+          if (this.data.nowLyricIndex !=(i-1)){
+            this.setData({
+              nowLyricIndex: i - 1,
+              scrollTop: (i - 1) * lyricHeight
+            })
+          }
           break
         }
       }
